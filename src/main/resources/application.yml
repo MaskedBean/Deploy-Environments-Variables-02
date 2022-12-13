@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+---
+environments: test
+myWelcomeMessageTree:
+  welcomeMessage: Hello from Test
+server:
+  port: 4000
+
+---
+environments: prod
+myWelcomeMessageTree:
+  welcomeMessage: Hello from prod
+server:
+  port: 5000
+
